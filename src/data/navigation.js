@@ -23,7 +23,19 @@ export const primaryNav = [
       { label: 'Outreach Program', to: '/outreach-program' },
     ],
   },
-  { label: 'Events', to: '/events' },
+  {
+    label: 'Events',
+    to: '/events',
+    children: [
+      { label: 'Conference', to: '/conference' },
+      { label: 'Faculty Development Program', to: '/faculty-development-program' },
+      { label: 'Industrial Tour', to: '/industrial-tour' },
+      { label: 'Seminars & Lecture Series', to: '/seminars-lecture-series' },
+      { label: 'Workshops', to: '/workshops' },
+      { label: 'Students Competition', to: '/students-competition' },
+      { label: 'Award & Achievement', to: '/award-achievement' },
+    ],
+  },
   { label: 'Student\'s Corner', to: '/students-corner' },
   {
     label: 'More',

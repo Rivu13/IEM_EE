@@ -16,6 +16,13 @@ import Publications from '../pages/Publications'
 import GrantInAidProject from '../pages/GrantInAidProject'
 import Patent from '../pages/Patent'
 import OutreachProgram from '../pages/OutreachProgram'
+import Conference from '../pages/Conference'
+import FacultyDevelopmentProgram from '../pages/FacultyDevelopmentProgram'
+import IndustrialTour from '../pages/IndustrialTour'
+import SeminarsLectureSeries from '../pages/SeminarsLectureSeries'
+import Workshops from '../pages/Workshops'
+import StudentsCompetition from '../pages/StudentsCompetition'
+import AwardAchievement from '../pages/AwardAchievement'
 import NotFound from '../pages/NotFound'
 
 const router = createBrowserRouter([
@@ -39,6 +46,13 @@ const router = createBrowserRouter([
       { path: 'grant-in-aid-project', element: <GrantInAidProject /> },
       { path: 'patent', element: <Patent /> },
       { path: 'outreach-program', element: <OutreachProgram /> },
+      { path: 'conference', element: <Conference /> },
+      { path: 'faculty-development-program', element: <FacultyDevelopmentProgram /> },
+      { path: 'industrial-tour', element: <IndustrialTour /> },
+      { path: 'seminars-lecture-series', element: <SeminarsLectureSeries /> },
+      { path: 'workshops', element: <Workshops /> },
+      { path: 'students-competition', element: <StudentsCompetition /> },
+      { path: 'award-achievement', element: <AwardAchievement /> },
       { path: '*', element: <NotFound /> },
     ],
   },

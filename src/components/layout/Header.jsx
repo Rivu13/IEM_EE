@@ -86,7 +86,7 @@ function Header() {
                 )}
 
                 {item.children && (
-                  <div className="invisible absolute left-0 top-full z-10 w-72 translate-y-1 rounded-xl border border-slate-100 bg-white p-2 opacity-0 shadow-xl transition-all duration-200 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
+                  <div className="invisible absolute left-0 top-full z-10 w-80 translate-y-1 rounded-xl border border-slate-100 bg-white p-2 opacity-0 shadow-xl transition-all duration-200 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
                     {item.children.map((child) => (
                       <Link
                         key={child.label}
