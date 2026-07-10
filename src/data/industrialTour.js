@@ -34,15 +34,37 @@ export const industrialTours = [
       'The primary objective of this visit was to strengthen the academia-industry linkage through discussions on student internships, placement opportunities, and consultancy projects.',
     ],
   },
-  ...Array.from({ length: 12 }, (_, i) => {
-    const n = i + 4
-    return {
-      id: `industrial-tour-${n}`,
-      title: `Industrial Tour ${n}`,
-      date: '',
-      coordinator: '',
-      images: imageRange('it', 11 + i * 3, 3),
-      paragraphs: ['Add industrial tour details here.'],
-    }
-  }),
+  {
+    id: 'polycab',
+    title: 'POLYCAB INDIA LTD.',
+    date: '21.08.2025',
+    coordinator: 'Prof. (Dr) Sourav Das',
+    images: imageRange('it', 8, 3),
+    paragraphs: [
+      'As part of the ongoing collaboration between the Department of Electrical Engineering, IEM Kolkata, and Polycab India Ltd, Halol, Gujarat, an industry visit was conducted on 21st August 2025. This collaboration stems from the Memorandum of Understanding (MoU) signed in July 2025, which remains valid for three years.',
+      'The primary objective of this visit was to strengthen the academia-industry linkage through discussions on student internships, placement opportunities, and consultancy projects.',
+    ],
+  },
+  {
+    id: 'polycab',
+    title: 'POLYCAB INDIA LTD.',
+    date: '21.08.2025',
+    coordinator: 'Prof. (Dr) Sourav Das',
+    images: imageRange('it', 8, 3),
+    paragraphs: [
+      'As part of the ongoing collaboration between the Department of Electrical Engineering, IEM Kolkata, and Polycab India Ltd, Halol, Gujarat, an industry visit was conducted on 21st August 2025. This collaboration stems from the Memorandum of Understanding (MoU) signed in July 2025, which remains valid for three years.',
+      'The primary objective of this visit was to strengthen the academia-industry linkage through discussions on student internships, placement opportunities, and consultancy projects.',
+    ],
+  },
+  // ...Array.from({ length: 12 }, (_, i) => {
+  //   const n = i + 4
+  //   return {
+  //     id: `industrial-tour-${n}`,
+  //     title: `Industrial Tour ${n}`,
+  //     date: '',
+  //     coordinator: '',
+  //     images: imageRange('it', 11 + i * 3, 3),
+  //     paragraphs: ['Add industrial tour details here.'],
+  //   }
+  // }),
 ]
