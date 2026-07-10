@@ -10,14 +10,14 @@ function ImageCarousel({ filenames, alt }) {
   if (images.length === 0) {
     return (
       <div className="flex h-64 w-full items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-slate-100 text-slate-400">
-        <ImageOff size={28} />
+        <ImageOff size={25} />
       </div>
     )
   }
 
   return (
-    <div className="flex flex-col gap-3">
-      <div className="relative h-64 w-full overflow-hidden rounded-2xl shadow-sm">
+    <div className="flex flex-col gap-2">
+      <div className="relative h-[20rem] w-full overflow-hidden bg-transparent shadow-none sm:h-[24rem] lg:h-[28rem]">
         <AnimatePresence mode="wait">
           <motion.img
             key={index}
@@ -27,7 +27,7 @@ function ImageCarousel({ filenames, alt }) {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.35 }}
-            className="absolute inset-0 h-full w-full object-cover"
+            className="absolute inset-0 h-full w-full object-contain"
           />
         </AnimatePresence>
       </div>
