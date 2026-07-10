@@ -12,6 +12,10 @@ import ClassRoutine from '../pages/ClassRoutine'
 import LaboratoryInfrastructure from '../pages/LaboratoryInfrastructure'
 import AcademicCalendar from '../pages/AcademicCalendar'
 import Library from '../pages/Library'
+import Publications from '../pages/Publications'
+import GrantInAidProject from '../pages/GrantInAidProject'
+import Patent from '../pages/Patent'
+import OutreachProgram from '../pages/OutreachProgram'
 import NotFound from '../pages/NotFound'
 
 const router = createBrowserRouter([
@@ -31,6 +35,10 @@ const router = createBrowserRouter([
       { path: 'laboratory-infrastructure', element: <LaboratoryInfrastructure /> },
       { path: 'academic-calendar', element: <AcademicCalendar /> },
       { path: 'library', element: <Library /> },
+      { path: 'publications', element: <Publications /> },
+      { path: 'grant-in-aid-project', element: <GrantInAidProject /> },
+      { path: 'patent', element: <Patent /> },
+      { path: 'outreach-program', element: <OutreachProgram /> },
       { path: '*', element: <NotFound /> },
     ],
   },

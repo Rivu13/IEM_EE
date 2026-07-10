@@ -4,10 +4,10 @@ import PageHero from '../components/common/PageHero'
 import lab1 from '../assets/images/lab1.jpg'
 import lab2 from '../assets/images/lab2.jpg'
 import { classroomCaption, labs } from '../data/labs'
-import { getLabImage } from '../utils/labImages'
+import { getImage } from '../utils/images'
 
 function LabImage({ filename, alt }) {
-  const src = getLabImage(filename)
+  const src = getImage(filename)
 
   if (!src) {
     return (

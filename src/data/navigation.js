@@ -16,8 +16,11 @@ export const primaryNav = [
     to: '/research',
     children: [
       { label: 'Research Areas', to: '/research#areas' },
-      { label: 'Publications', to: '/research#publications' },
       { label: 'Labs & Facilities', to: '/research#labs' },
+      { label: 'Publication', to: '/publications' },
+      { label: 'Grant-In-Aid Project', to: '/grant-in-aid-project' },
+      { label: 'Patent', to: '/patent' },
+      { label: 'Outreach Program', to: '/outreach-program' },
     ],
   },
   { label: 'Events', to: '/events' },
