@@ -14,17 +14,17 @@ export const placementHighlights = [
 export const placementSliderImages = imageRange('placement', 1, 3, 'png')
 
 export const topRecruiters = [
-  { name: 'GreyB', image: 'comp1.png' },
-  { name: 'IBM', image: 'comp2.png' },
-  { name: 'Cognizant', image: 'comp3.png' },
+  { name: 'GreyB', image: 'comp1.jpg' },
+  { name: 'IBM', image: 'comp2.jpg' },
+  { name: 'Cognizant', image: 'comp3.jpg' },
   { name: 'SMS Group', image: 'comp4.png' },
   { name: 'PwC', image: 'comp5.png' },
   { name: 'Accenture', image: 'comp6.png' },
-  { name: 'Reliance Retail', image: 'comp7.png' },
-  { name: 'Tata Consultancy Services', image: 'comp8.png' },
+  { name: 'Reliance Retail', image: 'comp7.jpg' },
+  { name: 'Tata Consultancy Services', image: 'comp8.jpg' },
   { name: 'Titagarh Rail Systems Limited', image: 'comp9.png' },
   { name: 'LTIMindtree', image: 'comp10.png' },
-  { name: 'Paharpur', image: 'comp11.png' },
+  { name: 'Paharpur', image: 'comp11.jpg' },
   { name: 'Polyhose', image: 'comp12.png' },
 ]
 
