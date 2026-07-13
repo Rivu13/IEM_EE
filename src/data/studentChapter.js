@@ -1,7 +1,7 @@
 import { imageRange } from '../utils/imageRange'
 
 export const studentChapter = {
-  images: imageRange('StudentChapter', 1, 3, 'png'),
+  images: imageRange('StudentChapter', 1, 4, 'png'),
   title: 'IEM EE Students\' Chapter',
   paragraphs: [
     'The Students\' Chapter of the Department of Electrical Engineering brings together students who share a passion for technology, innovation and professional growth beyond the classroom. Affiliated with premier professional bodies such as IEEE and IEI, the chapter provides a platform for students to organize and participate in technical workshops, seminars, industrial visits and competitions.',

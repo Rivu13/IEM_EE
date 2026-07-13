@@ -5,12 +5,12 @@ const captions = [
   'ASHRAE IEM Student Chapter Inauguration ceremony',
   'IEM UEM Kolkata Marathon 2022',
   'Industrial Training at Jaipur',
-  'Add gallery caption here',
-  'Add gallery caption here',
-  'Add gallery caption here',
-  'Add gallery caption here',
-  'Add gallery caption here',
-  'Add gallery caption here',
+  'INNOVATION 2022',
+  'ISHRAE IEM Model Student Chapter Award',
+  'NSDC 2021-2022',
+  'Site visit for SDI Competition',
+  'Solar Decathlon India 2021-22 (Winner)',
+  'Sunref India Programme Launch',
 ]
 
 const items = captions.map((caption, index) => ({
