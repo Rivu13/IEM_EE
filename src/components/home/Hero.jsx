@@ -1,6 +1,4 @@
 import { motion } from 'framer-motion'
-import { Link } from 'react-router-dom'
-import { ArrowRight, PlayCircle } from 'lucide-react'
 import heroVideo from '../../assets/videos/hero-video.mp4'
 import { accreditations } from '../../data/content'
 
@@ -54,28 +52,6 @@ function Hero() {
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="mt-9 flex flex-wrap items-center gap-4"
-          >
-            <Link
-              to="/contact"
-              className="group inline-flex items-center gap-2 rounded-full bg-blue-600 px-6 py-3.5 text-sm font-semibold text-white shadow-lg shadow-blue-600/25 transition-colors hover:bg-blue-700"
-            >
-              Admissions Enquiry
-              <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
-            </Link>
-            <Link
-              to="/research"
-              className="inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/5 px-6 py-3.5 text-sm font-semibold text-white backdrop-blur transition-colors hover:bg-white/15"
-            >
-              <PlayCircle size={18} />
-              Discover Research
-            </Link>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
             className="mt-14"
           >
             <p className="mb-4 text-xs font-semibold uppercase tracking-widest text-slate-400">

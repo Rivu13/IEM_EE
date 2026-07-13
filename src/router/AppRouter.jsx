@@ -23,6 +23,18 @@ import SeminarsLectureSeries from '../pages/SeminarsLectureSeries'
 import Workshops from '../pages/Workshops'
 import StudentsCompetition from '../pages/StudentsCompetition'
 import AwardAchievement from '../pages/AwardAchievement'
+import Placement from '../pages/Placement'
+import StudentChapter from '../pages/StudentChapter'
+import NotableAlumni from '../pages/NotableAlumni'
+import NssCsrActivities from '../pages/NssCsrActivities'
+import VideoLectures from '../pages/VideoLectures'
+import ModelDeveloped from '../pages/ModelDeveloped'
+import BatchPhotography from '../pages/BatchPhotography'
+import HolidayList from '../pages/HolidayList'
+import Mou from '../pages/Mou'
+import Feedback from '../pages/Feedback'
+import EngineersPledge from '../pages/EngineersPledge'
+import Gallery from '../pages/Gallery'
 import NotFound from '../pages/NotFound'
 
 const router = createBrowserRouter([
@@ -53,6 +65,18 @@ const router = createBrowserRouter([
       { path: 'workshops', element: <Workshops /> },
       { path: 'students-competition', element: <StudentsCompetition /> },
       { path: 'award-achievement', element: <AwardAchievement /> },
+      { path: 'placement', element: <Placement /> },
+      { path: 'student-chapter', element: <StudentChapter /> },
+      { path: 'notable-alumni', element: <NotableAlumni /> },
+      { path: 'nss-csr-activities', element: <NssCsrActivities /> },
+      { path: 'video-lectures', element: <VideoLectures /> },
+      { path: 'model-developed', element: <ModelDeveloped /> },
+      { path: 'batch-photography', element: <BatchPhotography /> },
+      { path: 'holiday-list', element: <HolidayList /> },
+      { path: 'mou', element: <Mou /> },
+      { path: 'feedback', element: <Feedback /> },
+      { path: 'engineers-pledge', element: <EngineersPledge /> },
+      { path: 'gallery', element: <Gallery /> },
       { path: '*', element: <NotFound /> },
     ],
   },

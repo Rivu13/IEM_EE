@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
-import { ChevronDown, Mail, Menu, Phone, Search, X } from 'lucide-react'
+import { ChevronDown, Mail, Menu, Phone, X } from 'lucide-react'
 import logo from '../../assets/images/iem_logo.png'
 import { primaryNav, topBarLinks } from '../../data/navigation'
 import AudioToggle from '../common/AudioToggle'
+
+const isExternalLink = (to) => /^https?:\/\//.test(to)
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -87,15 +89,27 @@ function Header() {
 
                 {item.children && (
                   <div className="invisible absolute left-0 top-full z-10 w-80 translate-y-1 rounded-xl border border-slate-100 bg-white p-2 opacity-0 shadow-xl transition-all duration-200 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
-                    {item.children.map((child) => (
-                      <Link
-                        key={child.label}
-                        to={child.to}
-                        className="block rounded-lg px-3 py-2 text-sm font-medium text-slate-600 hover:bg-blue-50 hover:text-blue-600"
-                      >
-                        {child.label}
-                      </Link>
-                    ))}
+                    {item.children.map((child) =>
+                      isExternalLink(child.to) ? (
+                        <a
+                          key={child.label}
+                          href={child.to}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="block rounded-lg px-3 py-2 text-sm font-medium text-slate-600 hover:bg-blue-50 hover:text-blue-600"
+                        >
+                          {child.label}
+                        </a>
+                      ) : (
+                        <Link
+                          key={child.label}
+                          to={child.to}
+                          className="block rounded-lg px-3 py-2 text-sm font-medium text-slate-600 hover:bg-blue-50 hover:text-blue-600"
+                        >
+                          {child.label}
+                        </Link>
+                      )
+                    )}
                   </div>
                 )}
               </div>
@@ -103,13 +117,6 @@ function Header() {
           </nav>
 
           <div className="hidden items-center gap-3 lg:flex">
-            <button
-              type="button"
-              aria-label="Search"
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-slate-50 text-slate-600 transition-colors hover:border-blue-300 hover:text-blue-600"
-            >
-              <Search size={18} />
-            </button>
             <AudioToggle />
             <Link
               to="/contact"
@@ -179,16 +186,29 @@ function Header() {
                         exit={{ opacity: 0, height: 0 }}
                         className="overflow-hidden pl-4"
                       >
-                        {item.children.map((child) => (
-                          <Link
-                            key={child.label}
-                            to={child.to}
-                            onClick={() => setIsMobileOpen(false)}
-                            className="block py-2 text-sm text-slate-600"
-                          >
-                            {child.label}
-                          </Link>
-                        ))}
+                        {item.children.map((child) =>
+                          isExternalLink(child.to) ? (
+                            <a
+                              key={child.label}
+                              href={child.to}
+                              target="_blank"
+                              rel="noreferrer"
+                              onClick={() => setIsMobileOpen(false)}
+                              className="block py-2 text-sm text-slate-600"
+                            >
+                              {child.label}
+                            </a>
+                          ) : (
+                            <Link
+                              key={child.label}
+                              to={child.to}
+                              onClick={() => setIsMobileOpen(false)}
+                              className="block py-2 text-sm text-slate-600"
+                            >
+                              {child.label}
+                            </Link>
+                          )
+                        )}
                       </motion.div>
                     )}
                   </AnimatePresence>
