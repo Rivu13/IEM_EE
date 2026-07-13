@@ -1,23 +1,45 @@
 export const feedbackContent = {
   intro:
-    'Internal Quality Assurance Cell makes it a tradition to essentially collect feedback from stakeholders - students, teachers, employers and alumni. The feedback is collected and analyzed and suggestions are forwarded to concerned authorities so as to initiate the action for improvement. In past it used to be collected manually, but shifting the institute on technology, it has been made system supported & online.',
+    "Internal Quality Assurance Cell makes it a tradition to essentially collect feedback from stakeholders- students, teachers, employers and alumni. The feedback is collected and analyzed and suggestions are forwarded to concerned authorities so as to initiate the action for improvement . In past it used to be collected manually, but shifting the institute on technology, it has been made system supported & online.",
   objective:
-    'The objective of the exercise is to correctly estimate the impact of all the efforts taken by the institution at all levels on the various stakeholders. The institution wants the benefits for all the stakeholders. This feedback is collected and trends generated through statistical analysis. Based on the opinions of the stakeholders, further action is taken by the administration.',
+    "The objective of the exercise is to correctly estimate the impact of all the efforts taken by the institution at all levels on the various stakeholders. The institution wants the benefits for all the stakeholders. This feedback is collected and trends generated through statistical analysis. Based on the opinions of the stakeholders, further action is taken by the administration.",
   methodology: [
-    'Feedback on curriculum is collected from the students. It is collected online and brought to the IQAC for its analysis. The Statistical data is handed over to the concerned authority. Further suggestions are incorporated by departments, BoS and governing body.',
-    'Alumni Feedback is collected during alumni meetings & even online. The filled in forms are sent for further action.',
-    'Feedback is collected from teachers as well by uploading the feedback forms on the portal. Subsequent action is similar to the other forms.',
-    'Employers\' Feedback is also collected either in person or online for further action.',
-    'The teachers or peers also give their feedback which is available at the server and the received data gets forwarded to the authorities for further action.',
-    'The feedback committee collects inputs and suggestions from the stakeholders and further action to be taken is discussed with departments and authorities. The decisions taken by the authorities are forwarded for action to be initiated.',
+    "Feedback on curriculum is collected from the students. It is collected online and brought to the IQAC for its analysis. The Statistical data is handed over to the concerned authority. Further suggestions are incorporated by departments, BoS and governing body.",
+    "Alumni Feedback is collected during alumni meetings & even online. The filled in forms are sent for further action.",
+    "Feedback is collected from teachers as well by uploading the feedback forms on the portal. Subsequent action is similar to the other forms.",
+    "Employers' Feedback is also collected either in person or online for further action.",
+    "The teachers or peers also give their feedback which is available at the server and the received data gets forwarded to the authorities for further action.",
+    "The feedback committee collects inputs and suggestions from the stakeholders and further action to be taken is discussed with departments and authorities. The decisions taken by the authorities are forwarded for action to be initiated.",
   ],
-  analysis:
-    'Feedback collected from all stakeholders is compiled and analyzed statistically every academic year. The trends are shared with the department and the governing body to help evaluate the effectiveness of curriculum delivery, teaching methodology and overall student experience.',
+  analysis: [
+    "The data get compiled and analyzed by the members associated with the committee. It then goes for deliberation to the IQAC, BoS and the Governing Body.",
+    "General Action Plan after data collection and analysis",
+    "Annual Feedback Action Taken Report given after analysis of stakeholders' feedback.",
+    "Meetings are held at the department level, BoS and Governing Body to discuss the suggestions and trends and feasibility of implementing the suggestions in the feedback.",
+    "To make curriculum more effective, add on courses were started and conducted.",
+    "More activities planned for better results and holistic development.",
+    "Internet facility with high bandwidth has been provided.",
+    "Library hours have been offered 24x7"
+
+  ],
+    // "Feedback collected from all stakeholders is compiled and analyzed statistically every academic year. The trends are shared with the department and the governing body to help evaluate the effectiveness of curriculum delivery, teaching methodology and overall student experience.",
   activities: [
-    'Curriculum enrichment sessions based on employer and alumni suggestions.',
-    'Faculty development programs addressing gaps identified in teacher and peer feedback.',
-    'Add-on certification courses and industry interaction sessions to bridge the academia-industry gap.',
-    'Regular mentoring and counselling sessions for holistic student development based on student feedback.',
+    "Result Analysis for students",
+    "Mentor-Mentee Cell",
+    "Remedial coaching",
+    "Coaching for Advance Learners",
+    "Seminars and workshops",
+    "On-the-job training & Industry Visits",
+    "Projects & Internships",
+    "To make curriculum more effective, various Add-On/Certificate courses were conducted.",
+    "Orientation Programmes- Soft Skills Training, Group Discussions & Personal Interviews",
+    "Career Guidance & Job opportunities programmes",
+    "Social Outreach Activities",
+    "Entrepreneurship development programmes",
+    // "Faculty development programs addressing gaps identified in teacher and peer feedback.",
+    // "Add-on certification courses and industry interaction sessions to bridge the academia-industry gap.",
+    // "Regular mentoring and counselling sessions for holistic student development based on student feedback.",
   ],
-  formUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSdqizmbJ14NleFTqf3sqasSysgxz6ENrpwLuRckCCDhRfsD2A/viewform',
-}
+  formUrl:
+    "https://docs.google.com/forms/d/e/1FAIpQLSdqizmbJ14NleFTqf3sqasSysgxz6ENrpwLuRckCCDhRfsD2A/viewform",
+};
