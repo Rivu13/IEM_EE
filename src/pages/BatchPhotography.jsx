@@ -13,7 +13,13 @@ function BatchPhotography() {
 
       <section className="bg-white py-20">
         <div className="mx-auto max-w-5xl px-6">
-          <LightboxGallery filenames={batchPhotos} alt="Batch photograph" />
+          <LightboxGallery
+            className="grid grid-cols-1 gap-6"
+            thumbnailClassName="w-full object-contain max-h-[80vh]"
+            filenames={batchPhotos}
+            alt="Batch photograph"
+          />
+
         </div>
       </section>
     </>

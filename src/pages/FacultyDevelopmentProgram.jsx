@@ -45,7 +45,7 @@ function FdpDocument({ programme }) {
   }
 
   return (
-    <div className="flex h-56 w-full flex-col items-center justify-center gap-4 rounded-2xl border border-blue-100 bg-gradient-to-br from-blue-50 to-white p-6 shadow-sm lg:h-full">
+    <div className="flex h-56 w-full flex-col items-center justify-center gap-4 rounded-2xl border border-blue-100 bg-linear-to-br from-blue-50 to-white p-6 shadow-sm lg:h-full">
       <div className="flex h-14 w-14 items-center justify-center rounded-full bg-blue-600 text-white">
         <FileText size={26} />
       </div>
@@ -96,6 +96,21 @@ function FacultyDevelopmentProgram() {
               <FdpDocument programme={programme} />
               <div>
                 <h3 className="text-lg font-bold text-slate-900">{programme.title}</h3>
+                {programme.venue && (
+                  <p className="mt-2 text-sm font-semibold text-slate-700">
+                    Venue: {programme.venue}
+                  </p>
+                )}
+                {programme.date && (
+                  <p className="mt-1 text-sm font-semibold text-slate-700">
+                    Date: {programme.date}
+                  </p>
+                )}
+                {programme.coordinators?.length > 0 && (
+                  <p className="mt-2 text-sm text-slate-600">
+                    Faculty Coordinators: {programme.coordinators.join(', ')}
+                  </p>
+                )}
                 <p className="mt-3 text-justify text-sm leading-relaxed text-slate-600">
                   {programme.description}
                 </p>

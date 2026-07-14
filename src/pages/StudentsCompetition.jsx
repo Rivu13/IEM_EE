@@ -22,9 +22,8 @@ function StudentsCompetition() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 0.5, delay: (index % 3) * 0.08 }}
-              className="grid gap-8 py-10 first:pt-0 last:pb-0 lg:grid-cols-[1fr_1.3fr] lg:items-start"
+              className="grid gap-8 py-10 first:pt-0 last:pb-0 lg:grid-cols-[1.3fr_1fr] lg:items-start"
             >
-              <ImageCarousel filenames={competition.images} alt={competition.title} />
               <div>
                 <h3 className="text-lg font-bold text-emerald-700">{competition.title}</h3>
                 {competition.date && (
@@ -50,6 +49,7 @@ function StudentsCompetition() {
                   </div>
                 )}
               </div>
+              <ImageCarousel filenames={competition.images} alt={competition.title} />
             </motion.div>
           ))}
         </div>

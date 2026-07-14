@@ -3,9 +3,15 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { ChevronLeft, ChevronRight, ImageOff, X } from 'lucide-react'
 import { getImage } from '../../utils/images'
 
-function LightboxGallery({ filenames, alt }) {
+function LightboxGallery({ filenames, alt, className = '', thumbnailClassName }) {
   const [openIndex, setOpenIndex] = useState(null)
   const images = filenames.map((name) => getImage(name)).filter(Boolean)
+  const galleryClassName = className.trim()
+    ? className
+    : 'grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4'
+  const thumbnailClasses = thumbnailClassName
+    ? thumbnailClassName
+    : 'h-32 w-full object-cover transition-transform duration-300 group-hover:scale-105 sm:h-36'
 
   if (images.length === 0) {
     return (
@@ -20,7 +26,7 @@ function LightboxGallery({ filenames, alt }) {
 
   return (
     <>
-      <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+      <div className={galleryClassName}>
         {images.map((src, index) => (
           <button
             key={src}
@@ -31,7 +37,7 @@ function LightboxGallery({ filenames, alt }) {
             <img
               src={src}
               alt={alt}
-              className="h-32 w-full object-cover transition-transform duration-300 group-hover:scale-105 sm:h-36"
+              className={thumbnailClasses}
             />
           </button>
         ))}
@@ -43,7 +49,7 @@ function LightboxGallery({ filenames, alt }) {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-[100] flex items-center justify-center bg-slate-950/90 p-6"
+            className="fixed inset-0 z-100 flex items-center justify-center bg-slate-950/90 p-6"
             onClick={() => setOpenIndex(null)}
           >
             <button
@@ -77,7 +83,7 @@ function LightboxGallery({ filenames, alt }) {
               src={images[openIndex]}
               alt={alt}
               onClick={(e) => e.stopPropagation()}
-              className="max-h-[85vh] max-w-[90vw] rounded-lg object-contain shadow-2xl"
+              className="max-h-[90vh] max-w-[95vw] rounded-lg object-contain shadow-2xl"
             />
 
             {images.length > 1 && (
