@@ -35,15 +35,15 @@ export const seminars = [
       'Ms. Ilena Dutta, Officer on Special Duty at the Board of Practical Training (Eastern Region) - BOPTER, Government of India, delivered a comprehensive presentation on "BOPT Connect: Building Career Pathways through Practical Training" on 14th November 2025 at the CII Auditorium. The session focused on strengthening industry-academia collaboration to develop industry-ready skilled professionals through structured apprenticeship and practical training programs under the National Apprenticeship Training Scheme (NATS).',
     ],
   },
-  ...Array.from({ length: 12 }, (_, i) => {
-    const n = i + 4
-    return {
-      id: `seminar-${n}`,
-      title: `Seminar / Lecture ${n}`,
-      date: '',
-      venue: '',
-      images: imageRange('sl', 15 + i * 3, 3),
-      paragraphs: ['Add seminar/lecture details here.'],
-    }
-  }),
+  // ...Array.from({ length: 12 }, (_, i) => {
+  //   const n = i + 4
+  //   return {
+  //     id: `seminar-${n}`,
+  //     title: `Seminar / Lecture ${n}`,
+  //     date: '',
+  //     venue: '',
+  //     images: imageRange('sl', 15 + i * 3, 3),
+  //     paragraphs: ['Add seminar/lecture details here.'],
+  //   }
+  // }),
 ]

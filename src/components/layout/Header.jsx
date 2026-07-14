@@ -60,7 +60,7 @@ function Header() {
             <div className="hidden flex-col leading-tight sm:flex">
               <span className="text-base font-bold text-slate-900">IEM EE Department</span>
               <span className="text-xs font-medium text-blue-600">
-                Electrical Engineering &middot; NBA Accredited
+                Electrical Engineering 
               </span>
             </div>
           </Link>

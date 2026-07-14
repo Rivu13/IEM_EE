@@ -24,7 +24,7 @@ function Hero() {
             transition={{ duration: 0.5 }}
             className="inline-block rounded-full border border-white/25 bg-white/5 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-white"
           >
-            NBA Accredited &middot; Department of Electrical Engineering
+             &middot; Department of Electrical Engineering
           </motion.span>
 
           <motion.h1
