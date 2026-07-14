@@ -36,7 +36,7 @@ export const industrialTours = [
   },
   // 👇👇👇
   {
-    id: "polycab",
+    id: "dpl",
     title: "Durgapur Projects Limited (DPL)",
     date: "19.05.2025 - 18.06.2025",
     coordinator: "Prof. (Dr.) Deepro Sen",
@@ -48,7 +48,7 @@ export const industrialTours = [
     ],
   },
   {
-    id: "polycab",
+    id: "tata",
     title: "TATA POWER SKILL DEVELOPLEMENT INSTITUTE",
     date: " 12.05.2025 - 29.05.2025",
     coordinator: "Prof. (Dr.) Sourav Das",
@@ -58,7 +58,7 @@ export const industrialTours = [
     ],
   },
   {
-    id: "polycab",
+    id: "purulia",
     title: "Purulia Pumped Storage Project",
     date: "03.03.2025",
     coordinator: "Prof. (Dr) Sourav Das",
@@ -69,7 +69,7 @@ export const industrialTours = [
     ],
   },
   {
-    id: "polycab",
+    id: "haldia",
     title: "Haldia Energy Limited",
     date: "29.03.2025",
     coordinator: "Prof. Ankit Ray Ghatak",
@@ -79,7 +79,7 @@ export const industrialTours = [
     ],
   },
   {
-    id: "polycab",
+    id: "tata-power",
     title: "TATA POWER SKILL DEVELOPLEMENT INSTITUTE",
     date: "03.01.2025 - 24.01.2025",
     coordinator: "Prof. (Dr.) Sourav Das",
@@ -89,7 +89,7 @@ export const industrialTours = [
     ],
   },
   {
-    id: "polycab",
+    id: "maithon",
     title: "Maithon Thermal Power Plant",
     date: "29.08.2024",
     coordinator: ["Prof. Ankit Ray Ghatak, ", "Prof. (Dr.) Sourav Das"],
@@ -99,7 +99,7 @@ export const industrialTours = [
     ],
   },
   {
-    id: "polycab",
+    id: "jadavpur",
     title: "JADAVPUR UNIVERSITY RESEARCH LAB.",
     date: "20.08.2024",
     coordinator: "Prof. Unmesha Ray",
@@ -109,7 +109,7 @@ export const industrialTours = [
     ],
   },
   {
-    id: "polycab",
+    id: "tractors",
     title: "Tractors India Limited",
     date: "19.07.2024",
     coordinator: ["Prof. (Dr.) Sourav Das, ", "Prof. Ankit Ray Ghatak"],
@@ -119,7 +119,7 @@ export const industrialTours = [
     ],
   },
   {
-    id: "polycab",
+    id: "mejia",
     title: "Mejia Thermal Power Station (MTPS), DVC.",
     date: "24.03.2023",
     coordinator: "Prof. Ankit Ray Ghatak",
@@ -129,7 +129,7 @@ export const industrialTours = [
     ],
   },
   {
-    id: "polycab",
+    id: "eastern",
     title: "Eastern Transformer & Equipment Pvt. Ltd.",
     date: "27.04.2022 - 28.04.2022 ",
     coordinator: "Prof. Ankit Ray Ghatak",
@@ -139,7 +139,7 @@ export const industrialTours = [
     ],
   },
   {
-    id: "polycab",
+    id: "nth",
     title: "National Test House (NTH), ER",
     date: "14.03.2022 & 17.03.2022",
     coordinator: "Prof. Debashis Jana",
@@ -149,7 +149,7 @@ export const industrialTours = [
     ],
   },
   {
-    id: "polycab",
+    id: "mtps",
     title:
       "MEJIA THERMAL POWER PLANT (MTPS) under DAMODAR VALLEY CORPORATION (DVC)",
     date: "28.02.2020",
@@ -160,7 +160,7 @@ export const industrialTours = [
     ],
   },
   {
-    id: "polycab",
+    id: "sector-v",
     title: "Industry Visit to WBSEDCL Substation, Sector-V",
     date: "09.11.2019",
     coordinator: "Prof. Yashaswy Raj",
@@ -170,7 +170,7 @@ export const industrialTours = [
     ],
   },
   {
-    id: "polycab",
+    id: "jamshedpur",
     title: "Industrial visit at Tata Steel Plant, Jamshedpur",
     date: "23.05.2016",
     coordinator: "Prof.(Dr.) Arun Kr. Bar, Prof. Somnath Hazra",
@@ -180,7 +180,7 @@ export const industrialTours = [
     ],
   },
   {
-    id: "polycab",
+    id: "kharagpur",
     title: "Industrial Visit to Tractors India Limited, Kharagpur",
     date: "15.02.2018",
     coordinator: "Prof. Debashis Jana, Prof. Ankit Ray Ghatak",
@@ -190,7 +190,7 @@ export const industrialTours = [
     ],
   },
   {
-    id: "polycab",
+    id: "himadri",
     title: "Industrial visit to Himadri Chemicals",
     date: "25.08.2016",
     coordinator: "Prof. Nirban Kumar Saha",
@@ -213,4 +213,4 @@ export const industrialTours = [
 ];
 
 
-// Check all above "ID' after the "TITLE: POLYCAB INDIA LTD.", and change the ID after this title.
+// Review the above "TITLE" once more after 3-topic, I am indentifying this through symbol.
