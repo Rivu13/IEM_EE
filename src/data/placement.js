@@ -31,10 +31,10 @@ export const topRecruiters = [
 export const placementBatchDetails = {
   featured: { label: 'EE Batch 2021-25', href: 'https://drive.google.com/file/d/12sKamtR6CeXAqgOfbDvJ0I5ExyzjjTpY/view' },
   previous: [
-    { label: 'EE Batch 2020-24', href: '#' },
-    { label: 'EE Batch 2019-23', href: '#' },
-    { label: 'EE Batch 2018-22', href: '#' },
-    { label: 'EE Batch 2017-21', href: '#' },
-    { label: 'EE Batch 2016-20', href: '#' },
+    { label: 'EE Batch 2020-24', href: 'https://drive.google.com/file/d/1FqbfOUwc4umu1rJ8CRiocP5nhWqravWG/view' },
+    { label: 'EE Batch 2019-23', href: 'https://drive.google.com/file/d/1BHn96R8LGFQ3KhGqHh2WriHx04lYdu2X/view' },
+    { label: 'EE Batch 2018-22', href: 'https://drive.google.com/file/d/19UWrpRA0U2_ovoMIaLZZcuHxmTo8FMNR/view' },
+    { label: 'EE Batch 2017-21', href: 'https://drive.google.com/file/d/1XHR0id6czlz90oHnGi18uCXLdqv6Rxfz/view' },
+    { label: 'EE Batch 2016-20', href: 'https://drive.google.com/file/d/1d_0JzF9e7u2e-V1OzORi4qsh9izHtgPB/view' },
   ],
 }
