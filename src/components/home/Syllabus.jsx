@@ -76,8 +76,7 @@ function Syllabus() {
                   <a
                     key={link.label}
                     href={link.href}
-                    target="_blank"
-                    rel="noreferrer"
+                    download={link.fileName}
                     className="flex items-center justify-between rounded-lg border border-slate-100 bg-slate-50 px-4 py-3 text-sm font-medium text-slate-700 transition-colors hover:border-blue-200 hover:text-blue-600"
                   >
                     {link.label}
