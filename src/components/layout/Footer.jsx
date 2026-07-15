@@ -2,14 +2,14 @@ import { Link } from 'react-router-dom'
 import { Mail, MapPin, Phone } from 'lucide-react'
 import logo from '../../assets/images/iem_logo.png'
 import { primaryNav } from '../../data/navigation'
-import { FacebookIcon, InstagramIcon, LinkedinIcon, YoutubeIcon } from '../common/SocialIcons'
+// import { FacebookIcon, InstagramIcon, LinkedinIcon, YoutubeIcon } from '../common/SocialIcons'
 
-const socials = [
-  { icon: FacebookIcon, href: 'https://facebook.com', label: 'Facebook' },
-  { icon: InstagramIcon, href: 'https://instagram.com', label: 'Instagram' },
-  { icon: LinkedinIcon, href: 'https://linkedin.com', label: 'LinkedIn' },
-  { icon: YoutubeIcon, href: 'https://youtube.com', label: 'YouTube' },
-]
+// const socials = [
+//   { icon: FacebookIcon, href: 'https://facebook.com', label: 'Facebook' },
+//   { icon: InstagramIcon, href: 'https://instagram.com', label: 'Instagram' },
+//   { icon: LinkedinIcon, href: 'https://linkedin.com', label: 'LinkedIn' },
+//   { icon: YoutubeIcon, href: 'https://youtube.com', label: 'YouTube' },
+// ]
 
 function Footer() {
   return (
@@ -25,6 +25,7 @@ function Footer() {
             Management — shaping engineers who power a sustainable future.
           </p>
           <div className="flex items-center gap-3 pt-1">
+            {/* Social icons removed — uncomment to restore
             {socials.map(({ icon: Icon, href, label }) => (
               <a
                 key={label}
@@ -37,6 +38,7 @@ function Footer() {
                 <Icon size={16} />
               </a>
             ))}
+            */}
           </div>
         </div>
 
@@ -58,7 +60,7 @@ function Footer() {
           </ul>
         </div>
 
-        <div>
+        {/* <div>
           <h3 className="mb-4 text-sm font-semibold uppercase tracking-widest text-white">
             Quick Links
           </h3>
@@ -84,7 +86,7 @@ function Footer() {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         <div>
           <h3 className="mb-4 text-sm font-semibold uppercase tracking-widest text-white">
@@ -109,6 +111,25 @@ function Footer() {
             </li>
           </ul>
         </div>
+        <div className="h-48 w-full overflow-hidden rounded-md border border-slate-800">
+          <h3 className="mb-4 text-sm font-semibold uppercase tracking-widest text-white">
+            IEM Location
+          </h3>
+          <div> 
+            <iframe
+              title="IEM Location"
+              src="https://www.google.com/maps?q=Institute%20of%20Engineering%20%26%20Management%2C%20Salt%20Lake%2C%20Kolkata%2C%20West%20Bengal%2C%20India&output=embed"
+              width="100%"
+              height="100%"
+              className="border-0"
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+            </div>
+          </div>
+
+
       </div>
 
       <div className="border-t border-slate-800 px-6 py-5">
