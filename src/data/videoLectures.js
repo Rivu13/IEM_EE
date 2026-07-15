@@ -16,50 +16,58 @@ export const videoCategories = [
         filename: "WE_lec 1.mkv",
         caption: "Principle of wind energy conversion",
         instructor: "Somnath Hazra",
-        driveUrl: "#",
+        driveUrl:
+          "https://drive.google.com/file/d/1KtuqB3X4kBWXgYNGSwWFWwKt79QxDCL9/view?usp=sharing",
       },
       {
         filename: "WE_lec 2.mkv",
         caption: "Basic components of wind energy conversion systems",
         instructor: "Somnath Hazra",
-        driveUrl: "#",
+        driveUrl:
+          "https://drive.google.com/file/d/1KtuqB3X4kBWXgYNGSwWFWwKt79QxDCL9/view?usp=sharing",
       },
       {
         filename: "WE_lec 3.mkv",
         caption: "Wind mill components, types and constructional features",
         instructor: "Somnath Hazra",
-        driveUrl: "#",
+        driveUrl:
+          "https://drive.google.com/file/d/1KtuqB3X4kBWXgYNGSwWFWwKt79QxDCL9/view?usp=sharing",
       },
       {
         filename: "WE_lec 4.mkv",
         caption:
           "Design considerations of horizontal and vertical axis wind machines",
         instructor: "Somnath Hazra",
-        driveUrl: "#",
+        driveUrl:
+          "https://drive.google.com/file/d/1KtuqB3X4kBWXgYNGSwWFWwKt79QxDCL9/view?usp=sharing",
       },
       {
         filename: "solar lecture 1 introduction.mkv",
         caption: "Introduction and solar radiation",
         instructor: "Swetadri Ghosh",
-        driveUrl: "#",
+        driveUrl:
+          "https://drive.google.com/file/d/1KtuqB3X4kBWXgYNGSwWFWwKt79QxDCL9/view?usp=sharing",
       },
       {
         filename: "solar radiation measurement.mkv",
         caption: "Solar radiation measurement",
         instructor: "Swetadri Ghosh",
-        driveUrl: "#",
+        driveUrl:
+          "https://drive.google.com/file/d/1KtuqB3X4kBWXgYNGSwWFWwKt79QxDCL9/view?usp=sharing",
       },
       {
         filename: "SOLAR COLLECTOR.mkv",
         caption: "Solar Collectors",
         instructor: "Swetadri Ghosh",
-        driveUrl: "#",
+        driveUrl:
+          "https://drive.google.com/file/d/1KtuqB3X4kBWXgYNGSwWFWwKt79QxDCL9/view?usp=sharing",
       },
       {
         filename: "SOLAR AIR HEATER.mkv",
         caption: "Solar air Heaters, solar dryers",
         instructor: "Swetadri Ghosh",
-        driveUrl: "#",
+        driveUrl:
+          "https://drive.google.com/file/d/1KtuqB3X4kBWXgYNGSwWFWwKt79QxDCL9/view?usp=sharing",
       },
     ],
   },
@@ -72,26 +80,30 @@ export const videoCategories = [
         filename: "",
         caption: "Braking of DC Motor",
         instructor: "Subhendu Banerjee",
-        driveUrl: "#",
+        driveUrl:
+          "https://drive.google.com/file/d/1KtuqB3X4kBWXgYNGSwWFWwKt79QxDCL9/view?usp=sharing",
       },
       {
         filename: "",
         caption: "Basic components of wind energy conversion systems",
         instructor: "Subhendu Banerjee",
-        driveUrl: "#",
+        driveUrl:
+          "https://drive.google.com/file/d/1KtuqB3X4kBWXgYNGSwWFWwKt79QxDCL9/view?usp=sharing",
       },
       {
         filename: "",
         caption: "Wind mill components, types and constructional features",
         instructor: "Subhendu Banerjee",
-        driveUrl: "#",
+        driveUrl:
+          "https://drive.google.com/file/d/1KtuqB3X4kBWXgYNGSwWFWwKt79QxDCL9/view?usp=sharing",
       },
       {
         filename: "",
         caption:
           "Design considerations of horizontal and vertical axis wind machines",
         instructor: "Subhendu Banerjee",
-        driveUrl: "#",
+        driveUrl:
+          "https://drive.google.com/file/d/1KtuqB3X4kBWXgYNGSwWFWwKt79QxDCL9/view?usp=sharing",
       },
     ],
   },
@@ -123,8 +135,7 @@ export const videoCategories = [
       },
       {
         filename: "Lecture-04.mp4",
-        caption:
-          "Voltage Regulation",
+        caption: "Voltage Regulation",
         instructor: "Ankit Ray Ghatak",
         driveUrl:
           "https://drive.google.com/file/d/1jKyXoRqLYbKXO2OWzqmh5pbtBEfVy5c0/view?usp=sharing",
@@ -152,8 +163,7 @@ export const videoCategories = [
       },
       {
         filename: "Lecture-08.mp4",
-        caption:
-          "Parallel Operation & Load Sharing",
+        caption: "Parallel Operation & Load Sharing",
         instructor: "Ankit Ray Ghatak",
         driveUrl:
           "https://drive.google.com/file/d/1jKyXoRqLYbKXO2OWzqmh5pbtBEfVy5c0/view?usp=sharing",
@@ -188,8 +198,7 @@ export const videoCategories = [
       },
       {
         filename: "Rectifier 4.mp4",
-        caption:
-          "Voltage Regulation",
+        caption: "Voltage Regulation",
         instructor: "Rajat Shubhra Pal",
         driveUrl:
           "https://drive.google.com/file/d/1jKyXoRqLYbKXO2OWzqmh5pbtBEfVy5c0/view?usp=sharing",
@@ -217,12 +226,11 @@ export const videoCategories = [
       },
       {
         filename: "Rectifier 8.mp4",
-        caption:
-          "Parallel Operation & Load Sharing",
+        caption: "Parallel Operation & Load Sharing",
         instructor: "Rajat Shubhra Pal",
         driveUrl:
           "https://drive.google.com/file/d/1jKyXoRqLYbKXO2OWzqmh5pbtBEfVy5c0/view?usp=sharing",
       },
     ],
-  }
+  },
 ];

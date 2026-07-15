@@ -3,9 +3,11 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { ChevronLeft, ChevronRight, ImageOff, X } from 'lucide-react'
 import { getImage } from '../../utils/images'
 
-function LightboxGallery({ filenames, alt, className = '', thumbnailClassName }) {
+function LightboxGallery({ filenames = [], alt, className = '', thumbnailClassName }) {
   const [openIndex, setOpenIndex] = useState(null)
   const images = filenames.map((name) => getImage(name)).filter(Boolean)
+  // const images = (filenames ?? []).map((name) => getImage(name)).filter(Boolean)
+  // const images = (filenames || []).map((name) => getImage(name)).filter(Boolean)
   const galleryClassName = className.trim()
     ? className
     : 'grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4'
@@ -14,11 +16,12 @@ function LightboxGallery({ filenames, alt, className = '', thumbnailClassName })
     : 'h-32 w-full object-cover transition-transform duration-300 group-hover:scale-105 sm:h-36'
 
   if (images.length === 0) {
-    return (
-      <div className="flex h-40 w-full items-center justify-center rounded-xl border border-dashed border-slate-300 bg-slate-100 text-slate-400">
-        <ImageOff size={24} />
-      </div>
-    )
+    // return (
+    //   <div className="flex h-40 w-full items-center justify-center rounded-xl border border-dashed border-slate-300 bg-slate-100 text-slate-400">
+    //     <ImageOff size={24} />
+    //   </div>
+    // )
+    return null
   }
 
   const showPrev = () => setOpenIndex((i) => (i - 1 + images.length) % images.length)
