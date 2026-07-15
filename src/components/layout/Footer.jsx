@@ -113,11 +113,11 @@ function Footer() {
         </div>
         <div className="h-48 w-full overflow-hidden rounded-md border border-slate-800">
           <h3 className="mb-4 text-sm font-semibold uppercase tracking-widest text-white">
-            IEM Location
+            Location
           </h3>
           <div> 
             <iframe
-              title="IEM Location"
+              title="Location"
               src="https://www.google.com/maps?q=Institute%20of%20Engineering%20%26%20Management%2C%20Salt%20Lake%2C%20Kolkata%2C%20West%20Bengal%2C%20India&output=embed"
               width="100%"
               height="100%"
